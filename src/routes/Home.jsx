@@ -1,9 +1,13 @@
 import React from "react";
+import Lista from "../components/Lista/Lista";
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="container">
+            <div className="title py-2">
+                <h3>Lista de Exercícios - Semana 6 </h3>
+            </div>
+            <Lista />
         </div>
     );
 };

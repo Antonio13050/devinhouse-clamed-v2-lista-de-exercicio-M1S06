@@ -6,6 +6,10 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home.jsx";
 import Exercicio1 from "./routes/Exercicio1.jsx";
+import Exercicio2 from "./routes/Exercicio2.jsx";
+import Exercicio3 from "./routes/Exercicio3.jsx";
+import Exercicio4 from "./routes/Exercicio4.jsx";
+import Exercicio5 from "./routes/Exercicio5.jsx";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +23,22 @@ const router = createBrowserRouter([
             {
                 path: "/exercicio1",
                 element: <Exercicio1 />,
+            },
+            {
+                path: "exercicio2",
+                element: <Exercicio2 />,
+            },
+            {
+                path: "exercicio3",
+                element: <Exercicio3 />,
+            },
+            {
+                path: "exercicio4",
+                element: <Exercicio4 />,
+            },
+            {
+                path: "exercicio5",
+                element: <Exercicio5 />,
             },
         ],
     },

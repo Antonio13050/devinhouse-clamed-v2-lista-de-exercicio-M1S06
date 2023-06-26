@@ -8,7 +8,6 @@ function App() {
     return (
         <>
             <Header />
-            <h1 className="mt-5">Hello Vite + React</h1>
             <Outlet />
         </>
     );
