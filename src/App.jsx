@@ -1,13 +1,14 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
 
 function App() {
     return (
         <>
-            <Navbar />
-            <h1>Hello Vite + React</h1>
+            <Header />
+            <h1 className="mt-5">Hello Vite + React</h1>
             <Outlet />
         </>
     );
