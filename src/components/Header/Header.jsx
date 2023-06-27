@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import NavItem from "react-bootstrap/NavItem";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -10,9 +10,9 @@ const Header = () => {
             <Navbar className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
                 <Container>
                     <NavItem className="nav-brand fs-3">
-                        <NavLink to="/" className="nav-link">
+                        <Link to="/" className="nav-link">
                             Lista de Exercícios
-                        </NavLink>
+                        </Link>
                     </NavItem>
                 </Container>
             </Navbar>

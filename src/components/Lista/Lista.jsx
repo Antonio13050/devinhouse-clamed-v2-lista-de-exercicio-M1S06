@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ListGroup from "react-bootstrap/ListGroup";
 
 import Accordion from "react-bootstrap/Accordion";
 import "./Lista.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const Lista = () => {
     return (
