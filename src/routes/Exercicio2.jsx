@@ -137,6 +137,7 @@ const Exercicio2 = () => {
                             </Button>
                         </div>
                     </div>
+                    <hr className="py-3" />
                     <div className="lista-de-alunos">
                         <h5 className="py-2">Lista de alunos</h5>
                         <Table striped bordered hover>

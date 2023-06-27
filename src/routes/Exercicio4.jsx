@@ -1,6 +1,10 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import ModalInfo from "../components/Modal/ModalInfo";
 
 const Exercicio4 = () => {
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <>
             <div className="container">
@@ -35,6 +39,10 @@ const Exercicio4 = () => {
                     </li>
                 </ul>
             </div>
+            <Button variant="primary" onClick={() => setModalShow(true)}>
+                Launch vertically centered modal
+            </Button>
+            <ModalInfo show={modalShow} onHide={() => setModalShow(false)} />
         </>
     );
 };
